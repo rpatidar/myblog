@@ -3,7 +3,7 @@ layout: "../../layouts/PostLayout.astro"
 title: "Long Lasting API Interfaces - Lesson 1"
 description: "Developer pitfall when designing interfaces for microservices and best Practices, Lesson 1"
 pubDate: "Jan 05 2023"
-heroImage: "/img/blog/api-interface.png"
+heroImage: "/myblog/img/blog/api-interface.png"
 ---
 
 Engineers design interfaces every once in a while, What was the last time you created a interface ?
