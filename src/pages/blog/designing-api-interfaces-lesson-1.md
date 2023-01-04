@@ -8,13 +8,13 @@ heroImage: "/myblog/img/blog/api-interface.png"
 
 Engineers design interfaces every once in a while. What was the last time you created a interface ?
 
-if earlier developer would have put the structure right you would not have faced the build failures or migration mess with the apis.
+If the earlier developer would have put the structure right, you would not have faced the build failures or migration mess with the apis.
 
-While the Developers design with the best in mind. Every API has its termination and deprecation date where it will become outdates and new api takes over or a new version of the API need to be developed.
+While the Developers design with the best in mind. Every API has its termination and deprecation date where it will become outdated and new API takes over or a new version of the API need to be developed.
 
 Lets take an example, You want to register a customer basic details in your system `first name` and `last name`.
 
-how would you create the interfaces, may be something like this  ?
+How would you create the interfaces, may be something like this  ?
 **Provider**
 
 ```java
@@ -38,7 +38,7 @@ class SomeLogicalCode {
 }
 ```
 
-happy leaving for 6 months, and now you are asked to add `age` field, you update your interface to this ?
+Happy leaving for 6 months, and now you are asked to add `age` field, you update your interface to this ?
 **Updated Provider**
 
 ```java
@@ -50,7 +50,7 @@ class CustomerProfile {
 }
 ```
 
-but wait, this will break your client isn't it ?, or you create one more overloading method and ask your client to migrate from old to new one and then you delete the old overloading ? the developer time is gone in most of time rotating this, building, updating and finding who fails next and cleaning up.
+But wait, this will break your client isn't it ? or you create one more overloading method and ask your client to migrate from old to new one and then you delete the old overloading ? Developer time is gone in most of time rotating this, building, updating and finding who fails next and cleaning up.
 
 This can be fixed if we would have encapsulated the objects under a class and taken it as object instead of functional parameters.
 **Provider**
@@ -70,8 +70,7 @@ class CustomerProfile {
 }
 ```
 
-
-Now your interface is solid and you don't have to keep changing and worry about client failures. 
+Now your interface is solid and you don't have to keep changing and worry about client failures.
 **Client side**
 
 ```java
