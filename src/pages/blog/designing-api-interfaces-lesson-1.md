@@ -6,10 +6,11 @@ pubDate: "Jan 05 2023"
 heroImage: "/myblog/img/blog/api-interface.png"
 ---
 
-Engineers design interfaces every once in a while, What was the last time you created a interface ?
-Do you remember how if you the earlier developer would have put the structure right  you would not have faced the build failures or migration mess.
+Engineers design interfaces every once in a while. What was the last time you created a interface ?
 
-While the Developers design with the best in mind. Every API has its termination and deprecation date where it will become outdates and new api takes over or a new version of the API need to be take.
+if earlier developer would have put the structure right you would not have faced the build failures or migration mess with the apis.
+
+While the Developers design with the best in mind. Every API has its termination and deprecation date where it will become outdates and new api takes over or a new version of the API need to be developed.
 
 Lets take an example, You want to register a customer basic details in your system `first name` and `last name`.
 
